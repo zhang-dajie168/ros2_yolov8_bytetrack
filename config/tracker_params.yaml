@@ -1,0 +1,8 @@
+object_tracker:
+  ros__parameters:
+    model_path: "/root/ros2_ws/src/object_tracker/weights/yolov8s.int.rknn"  # RKNN 模型路径
+    conf_threshold: 0.5
+    # 可选跟踪器参数（如 DeepSORT）
+    tracker:
+      max_age: 30
+      min_hits: 3
